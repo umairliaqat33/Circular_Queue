@@ -15,7 +15,7 @@ public:
 
     bool isEmpty();
 
-    bool isFull();
+//    bool isFull();
 
     void peek();
 
@@ -30,13 +30,13 @@ bool Queue::isEmpty() {
     }
 }
 
-bool Queue::isFull() {
-    if (rear == max - 1) {
-        return true;
-    } else {
-        return false;
-    }
-}
+//bool Queue::isFull() {
+//    if (rear == max - 1) {
+//        return true;
+//    } else {
+//        return false;
+//    }
+//}
 
 void Queue::enQueue(int num) {
     if (rear == -1) {
