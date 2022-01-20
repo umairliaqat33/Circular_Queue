@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Circular_Queue.dir/main.cpp.obj"
+  "CMakeFiles/Circular_Queue.dir/main.cpp.obj.d"
   "Circular_Queue.exe"
   "Circular_Queue.exe.manifest"
   "Circular_Queue.pdb"
